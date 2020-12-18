@@ -170,4 +170,40 @@ dd/mm/yyyy Pending : 1 Completed : 4
 
 ## Improving README.md
 If you feel like we are missing out steps, feel free to make a pull request. [Github Repo](https://github.com/nseadlc-2020/package-todo-cli-task)
+
 # ToDo-CLI
+
+```sh
+# Fork the repo
+https://github.com/abhishekpatel946/ToDo-CLI
+
+# Clone your forked repo
+$ git clone git@github.com:<username>/ToDo-CLI
+
+# Run the ToDo-CLI in linux
+$ ./todo.sh
+
+    .########..#######..########...#######...........######..##.......####
+    ....##....##.....##.##.....##.##.....##.........##....##.##........##.
+    ....##....##.....##.##.....##.##.....##.........##.......##........##.
+    ....##....##.....##.##.....##.##.....##.#######.##.......##........##.
+    ....##....##.....##.##.....##.##.....##.........##.......##........##.
+    ....##....##.....##.##.....##.##.....##.........##....##.##........##.
+    ....##.....#######..########...#######...........######..########.####                                             
+        
+
+
+|▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▎         | █▆▄ 76/100 [76%] in 8s (9.9/s, eta: 3s)
+
+[1] Add Todos  [2] Show All Todos [3] Delete Todos [4] Done Todos [5] Help [6] Report [Q] Quit
+
+:todo>>> 
+      $ [1]     # Press "1" to add a new todo.
+      $ [2]     # Press "2" to list all the pending todos.
+      $ [3]     # Press "3" and type the todo number for deleting the selected todo.
+      $ [4]     # Press "4" and type the todo number for completeing the selected todo.
+      $ [5]     # Press "5" for the HELP and more info.
+      $ [6]     # Press "6" for report pending & completing todos.
+      $ [Q]     # Press "Q" for quit or terminate the script. 
+
+```
